@@ -9,12 +9,13 @@ This project is a deep learning-based classifier that detects and classifies **8
 ## 🖼️ Project Overview
 
 The goal of this project is to recognize a wide variety of handwritten math symbols from images using deep learning. This model can be used in OCR applications, education tools, and math-solving interfaces.
+![image alt](https://github.com/Harsh3202/Handwritten-equation-solver/blob/f9cdad47d6f2fdfddba78c71b7162aed5457e26c/Screenshot%202025-05-16%20183549.png)
 
 ---
 
 ## 📂 Dataset
 
-- 📦 Dataset Source: [Handwritten Math Symbols on Kaggle](https://www.kaggle.com/your-dataset-link)
+- 📦 Dataset Source: [Handwritten Math Symbols on Kaggle](https://www.kaggle.com/datasets/xainano/handwrittenmathsymbols)
 - 82 classes of handwritten mathematical symbols
 - Images were extracted from a `.rar` archive and loaded using TensorFlow's `image_dataset_from_directory`.
 
@@ -40,7 +41,8 @@ Built using TensorFlow and Keras:
 - `2 × Dropout` layers for regularization
 - `1 × Dense` output layer (softmax activation for 82 classes)
 
-Saved as: `model/finalmodel.h5`
+Saved as: `finalmodel.h5`
+Download it from the link given below
 
 ---
 
@@ -55,13 +57,14 @@ Saved as: `model/finalmodel.h5`
 
 - Visualized training curves using Matplotlib
 - Data distribution and sample predictions plotted with Seaborn and Matplotlib
+![image alt](https://github.com/Harsh3202/Handwritten-equation-solver/blob/f9cdad47d6f2fdfddba78c71b7162aed5457e26c/Screenshot%202025-05-16%20183619.png)
 
 ---
 
 ## 🧪 Research & Documentation
 
-- 📄 [Research Paper PDF](./docs/math_symbol_detection_paper.pdf): Overview of data, model, experiments, and results
-- 🧠 [Trained Model](./model/finalmodel.h5): Ready for prediction and deployment
+- 📄 [Research Paper PDF](https://github.com/Harsh3202/Handwritten-equation-solver/blob/f9cdad47d6f2fdfddba78c71b7162aed5457e26c/IEE%7B1%7D.pdf): Overview of data, model, experiments, and results
+- 🧠 [Trained Model](https://drive.google.com/file/d/1-4UVlHxI5rW9y_s6JV0MMV_QsEx-w8qI/view?usp=sharing): Ready for prediction and deployment
 
 ---
 
@@ -108,6 +111,3 @@ Saved as: `model/finalmodel.h5`
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-**Author**: [Your Name]  
-**GitHub**: [https://github.com/your-username](https://github.com/your-username)
